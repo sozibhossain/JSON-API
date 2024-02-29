@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "name": "Atiya Store",
+        "address": "singair boad",
+        "products": ["Leptop", "mobile", "monitor"],
+        "owner": {
+            "name": "Hiro",
+            "profetion": "Web developer"
+        }
+    },
+    {
+        "id": 2,
+        "name": "Atiya Store",
+        "address": "singair boad",
+        "products": ["Leptop", "mobile", "monitor"],
+        "owner": {
+            "name": "Hiro",
+            "profetion": "Web developer"
+        }
+    },
+    {
+        "id": 3,
+        "name": "Atiya Store",
+        "address": "singair boad",
+        "products": ["Leptop", "mobile", "monitor"],
+        "owner": {
+            "name": "Hiro",
+            "profetion": "Web developer"
+        }
+    },
+    {
+        "id": 4,
+        "name": "Atiya Store",
+        "address": "singair boad",
+        "products": ["Leptop", "mobile", "monitor"],
+        "owner": {
+            "name": "Hiro",
+            "profetion": "Web developer"
+        }
+    }
+]
