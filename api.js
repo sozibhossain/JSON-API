@@ -19,7 +19,7 @@
 //     console.log(user)
 //   }
 // }
-
+// displayUser();
 
 function loadData() {
   fetch("https://jsonplaceholder.typicode.com/users")
@@ -28,11 +28,22 @@ function loadData() {
 }
 
 function displayUser(data) {
-    const ul = document.getElementById('users')
-  for(const user of data){
-    console.log(user.name)
-    const li = document.createElement('li');
-    li.innerText = user.name;
+  const ul = document.getElementById("users");
+  for (const user of data) {
+    console.log(user.name);
+    const li = document.createElement("li");
+    // li.innerText = user.name;
+    li.innerText = `Name: ${user.name}`;
     ul.appendChild(li);
   }
 }
+
+// function displayUser(data) {
+//     const ul = document.getElementById('users')
+//   for(const user of data){
+//     console.log(user.name)
+//     const li = document.createElement('li');
+//     li.innerText = user.name;
+//     ul.appendChild(li);
+//   }
+// }
